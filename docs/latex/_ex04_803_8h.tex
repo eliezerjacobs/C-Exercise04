@@ -1,0 +1,81 @@
+\hypertarget{_ex04_803_8h}{}\doxysection{Ex04.03/\+Ex04.03.h File Reference}
+\label{_ex04_803_8h}\index{Ex04.03/Ex04.03.h@{Ex04.03/Ex04.03.h}}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{_ex04_803_8h_a7eecad570a22c3fbbc4074ad4a781665}{Print\+Args}} (char $\ast$argv\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em Prints out all the arguments to the current program, line by line. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_ex04_803_8h_a799a313b65cca4ba51045b1bf284b952}{Count\+Switches}} (char $\ast$argv\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em Counts the number of switches passed to the current program. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_ex04_803_8h_a433a23fcab5a184cec3ffa51b5787b58}{Check\+Case}} (char $\ast$arg)
+\begin{DoxyCompactList}\small\item\em Determines the letter case of a string. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_ex04_803_8h_a89d0e9f7031b4f811944d068559fce22}{Count\+Case}} (char $\ast$argv\mbox{[}$\,$\mbox{]}, int letter\+Case)
+\begin{DoxyCompactList}\small\item\em Counts the number of arguements that are a certain casing. (See \mbox{\hyperlink{_ex04_803_8h_a433a23fcab5a184cec3ffa51b5787b58}{Check\+Case()}} documentation) \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_ex04_803_8h_a433a23fcab5a184cec3ffa51b5787b58}\label{_ex04_803_8h_a433a23fcab5a184cec3ffa51b5787b58}} 
+\index{Ex04.03.h@{Ex04.03.h}!CheckCase@{CheckCase}}
+\index{CheckCase@{CheckCase}!Ex04.03.h@{Ex04.03.h}}
+\doxysubsubsection{\texorpdfstring{CheckCase()}{CheckCase()}}
+{\footnotesize\ttfamily int Check\+Case (\begin{DoxyParamCaption}\item[{char $\ast$}]{arg }\end{DoxyParamCaption})}
+
+
+
+Determines the letter case of a string. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em arg} & The string to evaluate \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The letter casing of the string (-\/1 = neither. 0 = no alphabetic characters. 1 = all alphabetic characters are UPPER\+\_\+\+CASE. 2 = all alphabetic characters are lower\+\_\+case) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_ex04_803_8h_a89d0e9f7031b4f811944d068559fce22}\label{_ex04_803_8h_a89d0e9f7031b4f811944d068559fce22}} 
+\index{Ex04.03.h@{Ex04.03.h}!CountCase@{CountCase}}
+\index{CountCase@{CountCase}!Ex04.03.h@{Ex04.03.h}}
+\doxysubsubsection{\texorpdfstring{CountCase()}{CountCase()}}
+{\footnotesize\ttfamily int Count\+Case (\begin{DoxyParamCaption}\item[{char $\ast$}]{argv\mbox{[}$\,$\mbox{]},  }\item[{int}]{letter\+Case }\end{DoxyParamCaption})}
+
+
+
+Counts the number of arguements that are a certain casing. (See \mbox{\hyperlink{_ex04_803_8h_a433a23fcab5a184cec3ffa51b5787b58}{Check\+Case()}} documentation) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em argv} & \\
+\hline
+{\em letter\+Case} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_ex04_803_8h_a799a313b65cca4ba51045b1bf284b952}\label{_ex04_803_8h_a799a313b65cca4ba51045b1bf284b952}} 
+\index{Ex04.03.h@{Ex04.03.h}!CountSwitches@{CountSwitches}}
+\index{CountSwitches@{CountSwitches}!Ex04.03.h@{Ex04.03.h}}
+\doxysubsubsection{\texorpdfstring{CountSwitches()}{CountSwitches()}}
+{\footnotesize\ttfamily int Count\+Switches (\begin{DoxyParamCaption}\item[{char $\ast$}]{argv\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Counts the number of switches passed to the current program. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em argv} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_ex04_803_8h_a7eecad570a22c3fbbc4074ad4a781665}\label{_ex04_803_8h_a7eecad570a22c3fbbc4074ad4a781665}} 
+\index{Ex04.03.h@{Ex04.03.h}!PrintArgs@{PrintArgs}}
+\index{PrintArgs@{PrintArgs}!Ex04.03.h@{Ex04.03.h}}
+\doxysubsubsection{\texorpdfstring{PrintArgs()}{PrintArgs()}}
+{\footnotesize\ttfamily void Print\+Args (\begin{DoxyParamCaption}\item[{char $\ast$}]{argv\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Prints out all the arguments to the current program, line by line. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em argv} & \\
+\hline
+\end{DoxyParams}
